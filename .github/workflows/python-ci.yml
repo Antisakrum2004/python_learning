@@ -27,4 +27,5 @@ jobs:
 
     - name: Run UI tests
       run: |
-        pytest python_learning/test_ui_playwright.py -v
+        pytest test_ui_playwright.py -v
+        
